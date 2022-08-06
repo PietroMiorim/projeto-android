@@ -1,16 +1,7 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: "Bebas Neue";
-    src: url('/fontes/BebasNeue-Regular.otf') format('opentype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-@font-face {
-    font-family: "Android";
-    src: url('/fontes/IDroid.otf') format('opentype');
-    font-weight: normal;
-}
 
 * {
     margin: 0px;
@@ -26,8 +17,8 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: "Bebas Neue";
-    --fonte-android: "Android";
+    --fonte-destaque: 'Anton', sans-serif;
+    --fonte-android: ;
 }
 
 body {
