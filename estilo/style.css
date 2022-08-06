@@ -14,7 +14,6 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: Verdana, Helvetica, sans-serif;
 }
 
 body {
@@ -35,7 +34,7 @@ header {
 }
 
 header > h1 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     font-size: 3em;
     color: white;
     margin-bottom: 20px;
@@ -86,7 +85,7 @@ main {
 }
 
 main > article > h1 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     color: var(--cor5);
     font-size: 1.5em;
     background-image: linear-gradient(to right, var(--cor2), transparent);
@@ -94,7 +93,7 @@ main > article > h1 {
 }
 
 main > article > h2 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     color: var(--cor4);
     font-size: 1.4em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
